@@ -304,7 +304,7 @@ footer > ul > li:first-of-type {
 .login-inputs{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 70%;
 }
 
   
@@ -327,13 +327,15 @@ footer > ul > li:first-of-type {
 }
 
 .confirm-button{
-  padding: 7px 10px;
+  padding: 10px 10px;
   border: 1px solid #3eb368;
   background: #3eb368;
   color: #fff;
   line-height: 17px;
   border-radius: 3px;
   text-align: center;
+  width: 60%;
+  
 }
 
 
@@ -411,7 +413,21 @@ footer > ul > li:first-of-type {
   }
 }
 
-@media (max-width:)
+@media (max-width: 650px){
+  
+  .login-container > div{
+    width: 80%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 30px;
+  }
+  
+  .login-inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
 
 
 

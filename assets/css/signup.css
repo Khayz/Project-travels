@@ -43,6 +43,10 @@ body{
       transition: 1ms cubic-bezier(0.075, 0.82, 0.165, 1):
   }
 
+  .menu_main{
+      position: static;
+  }
+
 @media (max-width: 768px){
     div h1{
         font-size: 17px;
